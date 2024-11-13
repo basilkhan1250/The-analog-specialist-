@@ -1,32 +1,55 @@
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
-span{
+span {
     font-size: xx-large;
 }
-div{
+
+div {
     text-align: center;
 }
-hr{
-    width: 600px;
+
+.heading {
+    /* margin: 20px auto; */
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 4px 0;
+    margin: 20px 416px;
 }
-ul{
-    padding: 0;
-    margin: 0;
-}
-li{
+
+
+li {
     display: inline;
     padding: 20px;
-    cursor: pointer;;
+    cursor: pointer;
+    transition: 0.5s;
 }
-img{
+
+img {
     width: 200px;
+    cursor: pointer;
 }
-body{
+
+body {
     font-family: "Poppins", sans-serif;
 }
-.bgimage{
-    background-image: url();
+
+/* 
+body {
+    background-image: url("./behang-met-een-piano_8.webp");
+} */
+
+.height {
+    height: 300px;
+}
+
+li:hover {
+    transition: 0.4s;
+    color: wheat;
+    /* color: rgb(184, 107, 255); */
+    background-color: black;
+    border-radius: 20px;
+}
+
+.text {
+    margin: 10px 400px;
+    /* padding: 10px 100px; */
+    text-align: center;
 }
